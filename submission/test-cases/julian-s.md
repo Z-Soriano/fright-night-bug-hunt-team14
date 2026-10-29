@@ -14,44 +14,50 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** TC-10
+**Written by:** Julian S
+**Title:** Login username accepts spaces.
+**Traces to:** REQ-01
+**Test type:** Validation
+**Preconditions:** Logging and Registering
+**Test data:** 
+Username: h 143543 (space in the middle of h and 1) Password:1234
 
 **Steps:**
-1.
-2.
-3.
+1. Go to Log in/Register
+2. Type in the username under Register: h 143543
+3. Type in password: 1234
 
 **Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+Invalid username/password
+**Actual result:** 
+Account created! You can log in now.
+**Status:** Fail
+**Severity:** Major
+**V or V:** Fail only
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
+**Test ID:** TC11
+**Written by:** Julian S
+**Title:** Allows voting without being logged in
+**Traces to:** REQ-02
+**Test type:** Negative
+**Preconditions:** guest
+**Test data:** Without being logged in.
 
 **Steps:**
-1.
-2.
-3.
+1. Open Vote
+2. Click Vote on any costume
 
 **Expected result:**
+Need to log in in order to vote
 **Actual result:**
+Takes vote
 **Status:**
+Fail 
 **Severity:**
-**V or V:**
+Critical
+**V or V:** fail only
 
 ---
