@@ -14,11 +14,11 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**TC-10
+**Test ID:** TC-10
 **Written by:** Julian S
 **Title:** Login username accepts spaces.
 **Traces to:** REQ-01
-**Test type:** Acceptance and Security
+**Test type:** Validation
 **Preconditions:** Logging and Registering
 **Test data:** 
 Username: h 143543 (space in the middle of h and 1) Password:1234
@@ -38,23 +38,26 @@ Account created! You can log in now.
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
+**Test ID:** TC11
+**Written by:** Julian S
+**Title:** Allows voting without being logged in
+**Traces to:** REQ-02
+**Test type:** Negative
+**Preconditions:** guest
+**Test data:** Without being logged in.
 
 **Steps:**
-1.
-2.
-3.
+1. Open Vote
+2. Click Vote on any costume
 
 **Expected result:**
+Need to log in in order to vote
 **Actual result:**
+Takes vote
 **Status:**
+Fail
 **Severity:**
-**V or V:**
+Critical
+**V or V:** fail only
 
 ---
