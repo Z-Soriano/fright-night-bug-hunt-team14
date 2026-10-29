@@ -39,7 +39,7 @@ HOW TO USE THIS FILE
 **Written by: Zachary**
 **Title:Concat vs incrememnt**
 **Traces to: store.js**
-**Test type: Negative**
+**Test type: Traced to a diagrams**
 **Preconditions: User has votes remaining**
 **Test data: Costume Vampire Accountant, inital votes "2"**
 
@@ -55,3 +55,22 @@ HOW TO USE THIS FILE
 
 ---
 
+**Test ID: Z3**
+**Written by: Zachary**
+**Title:Display gallery costumes**
+**Traces to: rendergallery, rendervotepage**
+**Test type: Integration**
+**Preconditions: starter data is loaded in**
+**Test data:all costumes are displayed in gallery**
+
+**Steps:**
+1. Go to gallery on navbar
+2. go to vote on navbar
+
+**Expected result:  the same exact cards**
+**Actual result: missing cards**
+**Status: Fail**
+**Severity: Critical**
+**V or V: Validation**
+
+---
