@@ -175,3 +175,4 @@ fright-night-bug-hunt/
 ## AI Disclosure
 
 This app was intentionally vibe coded with Claude (Anthropic) to contain bugs. The documentation and handouts were drafted with Claude and reviewed and revised by the instructor. That is the same disclosure standard this course asks of you.
+
