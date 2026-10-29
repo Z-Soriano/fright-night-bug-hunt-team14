@@ -31,7 +31,7 @@ HOW TO USE THIS FILE
 **Actual result: "account created! you can log in now."**
 **Status: Fail** (Pass / Fail)
 **Severity: Major** (Critical / Major / Minor, Fail only)
-**V or V: Verification** (Verification / Validation, Fail only)
+**V or V: Verification** (Verification / Validation, Fail only)  
 
 ---
 
