@@ -35,23 +35,22 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
+**Test ID: Z2**
+**Written by: Zachary**
+**Title:Concat vs incrememnt**
+**Traces to: store.js**
+**Test type: Negative**
+**Preconditions: User has votes remaining**
+**Test data: Costume Vampire Accountant, inital votes "2"**
 
 **Steps:**
-1.
-2.
-3.
+1. Go to votes on navbar
+2. vote vampire accountant
 
-**Expected result:**
-**Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
+**Expected result:  2+1 = 3 or n+1**
+**Actual result:, but get 21, 211, 2111... etc**
+**Status: Fail**
+**Severity: Critical**
+**V or V: Validation**
 
 ---
