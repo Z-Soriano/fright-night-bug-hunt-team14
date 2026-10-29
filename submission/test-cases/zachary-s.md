@@ -20,7 +20,7 @@ HOW TO USE THIS FILE
 **Traces to: castVote(costumeID)**
 **Test type:** (Unit / Integration / System / Acceptance / Boundary Value / **Negative** / Security)
 **Preconditions: total votes left = 0**
-**Test data:**
+**Test data: valid login**
 
 **Steps:**
 1. Click on votes navbar
@@ -32,6 +32,28 @@ HOW TO USE THIS FILE
 **Status:** (Pass / **Fail**)
 **Severity:** (Critical / **Major** / Minor, Fail only)
 **V or V:** (Verification / **Validation**, Fail only)
+
+---
+
+**Test ID: Z2**
+**Written by: Zachary**
+**Title:Concat vs incrememnt**
+**Traces to: store.js**
+**Test type: Negative**
+**Preconditions: User has votes remaining**
+**Test data: Costume Vampire Accountant, inital votes "2"**
+
+**Steps:**
+1. Go to votes on navbar
+2. vote vampire accountant
+
+**Expected result:  2+1 = 3 or n+1**
+**Actual result:, but get 21, 211, 2111... etc**
+**Status: Fail**
+**Severity: Critical**
+**V or V: Validation**
+
+---
 
 ---
 
